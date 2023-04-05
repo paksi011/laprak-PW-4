@@ -1,0 +1,104 @@
+/* CSS untuk Situs Web Game Online */
+
+/* Style untuk header */
+
+html{
+    background-color: blue;
+}
+
+h1, h2, li, a, p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header {
+	background-color: #2e2e2e;
+	color: #ffffff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Headers{
+    justify-self: flex-start;
+    margin: 5px;
+}
+
+.link{
+    justify-self: flex-end;
+    justify-content: space-around;
+    width: 550px;
+}
+
+ul{
+    align-items: center;
+}
+
+header h1 {
+	font-size: 2em;
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Style untuk main */
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0 0 20px 0;
+}
+
+ul li img{
+    width: 256px;
+    height: 256px;
+}
+
+ul li .permainan2 img{
+    width: 256px;
+    height: 226px;
+}
+
+
+/* Style untuk tombol */
+button {
+	background-color: #ff2e63;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ff4485;
+}
